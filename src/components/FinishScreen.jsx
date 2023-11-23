@@ -21,7 +21,7 @@ function FinishScreen({ points, maxPossiblePoints, highscore, dispatch }) {
         className="btn btn-ui"
         onClick={() => dispatch({ type: "restart" })}
       >
-        Reiniciar Quizz
+        Reiniciar Quiz
       </button>
     </>
   );
